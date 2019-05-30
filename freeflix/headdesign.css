@@ -1,0 +1,118 @@
+#headbar
+{
+	height:100px;
+	background-color:black;
+	width:100%;
+	position:relative;
+	color:white;
+}
+#logo
+{
+	float:left;
+
+	width:15%;
+	min-width:375px;
+	left:5px;
+	position:relative;
+}
+#navbar
+{	top:3px;
+	height:30px;
+	background-color:black;
+	width:100%;
+	opacity:100%;
+	position:relative;
+
+}
+#searchContent
+{
+	top:30px;
+	width:38%;
+	float:left;
+	position:relative;
+	min-width:460px;
+
+	
+}
+#searchbar
+{
+	font-family:arial;
+	font-size:20px;
+	height:40px;
+	width:80%;
+	min-width:400px;
+	color:white;
+	display:inline-block;
+	border:2px solid red;
+	border-radius:6px;
+	background-color:black;
+	position:relative;
+	vertical-align:center;
+}
+#searchbar:hover
+{
+	font-family:arial;
+	font-size:20px;
+	background-color:white;
+	color:black;
+	outline:yellow;
+}
+#searchButton
+{
+	width:10%;
+	min-width:55px;
+	display:inline-block;
+	position:relative;
+	background-color:black;
+	border:2px solid red;
+	color:white;
+	height:40px;
+	vertical-align:center;
+	border-radius:6px;
+}
+#login
+{
+	width:35%;
+	float:left;
+	position:relative;
+	min-width:375px;
+
+}
+.Button
+{
+	display:inline-block;
+	position:relative;
+	background-color:black;
+	border:2px solid red;
+	color:white;
+	height:40px;
+	width:80px;
+	vertical-align:center;
+	border-radius:6px;
+}
+
+.logfield
+{
+	float:right;
+	display:inline-block;
+	position:relative;
+	background-color:black;
+	border:2px solid red;
+	color:white;
+	height:40px;
+	width:120px;
+	right:3px;
+	vertical-align:center;
+	border-radius:6px;
+}
+#login .button
+{
+	top:30px;
+	float:right;
+	display:inline-block;
+	position:relative;
+}
+#login .logfield
+{
+	top:30px;
+}

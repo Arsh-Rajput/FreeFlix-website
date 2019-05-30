@@ -1,0 +1,132 @@
+.catelog
+{
+	position:relative;
+	width:100%;
+	height:220px;
+	white-space:nowrap;
+	overflow:auto;
+	background-color:white;
+	border:1px solid red;
+	border-radius:10px;
+}
+h2
+{
+	margin-left:40px;
+	font-family:arial;
+	color:red;
+}
+
+.showbox
+{
+
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:auto;
+	height:190px;
+	width:130px;
+	position:relative;
+	display:inline-block;
+	border:1px solid red;
+}
+.posters
+{
+	width:100%;
+	height:80%;
+	background-size:cover;
+	display:flex;
+	overflow:hidden;
+	flex-wrap:wrap;
+}
+.moviename
+{
+	background-color:white;
+	font-family:arial;
+	overflow:hidden;
+	width:100%;
+	height:20%;
+	color:black;
+	display:block;
+}
+.showbox:hover
+{
+	box-shadow:2px 2px 20px red,1px 2px 20px 2px red;
+}
+
+
+
+#playerbody
+{
+	position:relative;
+	display:block;
+	width:100%;
+	height:610px;
+	
+}
+#videobody
+{
+	float:left;
+	position:relative;
+	
+	height:500px;
+	max-height:600px;
+	width:70%;
+}
+#moviedata
+{
+	padding:20px;
+	float:left;
+	position:relative;
+	height:600px;
+	width:30%;
+	background-color:white;
+}
+#related
+{
+	position:relative;
+	width:100%;
+	float:left;
+	height:300px;
+	display:block;
+}
+video
+{
+	width:100%;
+	height:40vw;
+	max-height:600px;
+	border:2px solid black;
+}
+@media screen and (max-width:1500px)
+{
+	#videobody
+	{
+		padding:10px;
+		display:block;
+		float:none;
+		width:100%;
+		height:55vw;
+	}
+	#moviedata
+	{
+		display:block;
+		float:none;
+		width:100%;
+		height:300px;
+	}
+	#related
+	{
+		display:block;
+		float:none;
+		width:100%;
+		
+	}
+	#playerbody
+	{
+		height:60vh;
+	}
+	video
+	{
+		width:100%;
+		height:100%;
+	}
+}

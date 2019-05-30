@@ -1,0 +1,70 @@
+body
+{
+	background-color:red;
+	margin:0px;
+}
+#raw
+{
+	height:100px;
+	position:relative;
+	width:100%;
+}
+#head
+{
+	position:fixed;
+	background-color:white;
+	height:100px;
+	width:100%;
+	max-width:100%;
+	margin:0;
+	z-index:3;
+	
+}
+#box
+{
+	overflow:auto;
+	position:relative;
+	height:100px;
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+.b1
+{
+	height:30px;
+	width:60px;
+	margin:5px;
+	background-color:black;
+	float:left;
+	padding:10px;
+	
+	overflow:visible;
+	
+}
+
+#nav
+{
+	
+	position:relative;	
+	background-color:green;
+	height:40px;
+	width:100%;
+	margin:0;
+}
+.drop
+{
+	float:right;
+}
+ a
+{
+	display:block;
+}
+.drop-content
+{
+	display:none;
+}
+.drop:hover .drop-content
+{
+	display:block;
+}

@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="testalldesign.css" >
+	<title>My web page</title>
+</head>
+<body>
+<script>
+
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	<div id="headbar">
+		<div id="logo"><img src="netflix.jpg" height="100%" width="100%"></div>
+		<div id="searchcontent">
+		<form id="searchform" action="#" method="POST">
+			<input type="text" name="searchitem" id="searchitem" placeholder="search here">
+			<button type="submit" name="search" id="searchbutton" value="search">Search</button>
+		</form>
+		</div>
+	</div>
+	<div id="navbar" class="topnav">
+		<a href="#"><div class="navitem">Home</div></a>
+		<a href="#"><div class="navitem">a</div></a>
+		<a href="#"><div class="navitem">b</div></a>
+		<a href="#"><div class="navitem">c</div></a>
+		<a href="#"><div class="navitem">d</div></a>
+		<a href="#"><div class="navitem">e</div></a>
+		<a href="#"><div class="navitem">f</div></a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+	</div>
+	
+</body>
+</html>

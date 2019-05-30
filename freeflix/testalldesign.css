@@ -1,0 +1,194 @@
+
+
+* {box-sizing: border-box;}
+
+body
+{
+	margin:0px;
+	background-color:white;
+}
+#headbar
+{
+	height:100px;
+	width:100%;
+	position:relative;
+	background-color:black;
+	border-bottom:2px solid red;
+}
+#logo
+{
+	left:3%;
+	height:96px;
+	width:180px;
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+#searchcontent
+{
+	position:relative;
+	display:inline-block;
+	float:right;
+	right:5%;
+	top:30px;
+	width:40%;
+	
+}
+#searchitem
+{
+	height:30px;
+	width:80%;
+	border:2px solid red;
+	border-radius:10px;
+	background-color:black;
+	color:white;
+	float:left;
+}
+#searchbutton
+{
+	float:left;
+	overflow:hidden;
+	width:20%;
+	height:30px;
+	border-radius:10px;
+	font-size:12px;
+	background-color:black;
+	border:2px solid red;
+	color:white;
+}
+.topnav
+{
+	width:100%;
+	height:auto;
+	border-bottom:2px solid red;
+	position:relative;
+	background-color:black;
+	overflow:display;
+	z-index:2;
+}
+.topnav a
+{
+	float:left;
+	height:28px;
+	width:80px;
+	font-size:20px;
+	text-decoration:none;
+	color:white;
+	border-right:2px solid red;
+	display:block-inline;
+	text-align:center;
+	padding:3px;
+	
+}
+.topnav a:hover 
+{
+	background-color:white;
+	color:black;
+}
+.topnav .icon
+{
+	display:none;
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: red; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px)
+{
+	#headbar
+	{
+		height:100px;
+		
+	}
+	#logo
+	{
+		transform:translate(45%,0%);
+		float:none;
+		left:25%;
+		height:80%;
+		width:25%;
+		position:relative;
+		background-size:cover;
+		
+		
+	}
+	#searchcontent
+	{
+		
+		position:relative;
+		top:-13px;
+		width:100%;
+		height:20%;
+		float:none;
+		right:0;
+	}
+	#searchitem
+	{
+		background-color:white;
+		color:black;
+	}
+	
+	
+}
+@media screen and (max-width: 500px) {  
+  .topnav.responsive.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	float:right;
+  }
+  .topnav.responsive 
+  {
+  width:100%;
+  position:relative;
+  height:200px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+	width:100%;
+	z-index:3;
+	background-color:yellow;
+	color:white;
+	border-bottom:1px solid red;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .topnav.responsive a:not(:first-child) {display: none;}
+  .topnav.responsive a.icon {
+    float: right;
+    display: block;
+  }
+}
+

@@ -1,0 +1,33 @@
+#sidepanel
+{
+	float:left;
+	display:inline-block;
+	top:200px;
+	padding:7px;
+	border-top:2px solid red;
+	background-color:black;
+	position:fixed;
+	z-index:1;
+	height:auto;
+	width:15%;
+	max-height:700px;
+}
+.sidelist
+{
+	top:2px;
+	padding:3px;
+	height:26px;
+	width:100%;
+	color:white;
+	font-family:arial;
+	font-size:16px;
+	text-align:center;
+	background-color:black;
+	border-bottom:2px solid red;
+}
+.sidelist:hover
+{
+	border:2px solid red;
+	background-color:white;
+	color:black;
+}

@@ -1,0 +1,65 @@
+body
+{
+	margin:0;
+	font-family:arial;
+	font-size:18px
+	background-color:white;
+}
+#content
+{
+position:relative;
+margin-left:auto;
+top:100px;
+margin-right:auto;
+vertical-align:middle;
+height:70%;
+width:50%;
+min-height:700px;
+min-width:400px;
+background-color:white;
+border:2px solid red;
+border-radius:20px ;
+}
+table 
+{
+	height:100%;
+	width:100%;
+	
+}
+tr
+{
+	border-top:1px solid red;
+	
+}
+td
+{
+	text-align:left;
+	margin-left:10px;
+}
+.size8
+{
+	width:100%;
+	height:70%;
+	background-color:white;
+	border:1px solid red;
+	font-size:22px;
+	
+}
+.size4
+{
+	width:60%;
+	height:70%;
+	background-color:white;
+	border:1px solid red;
+	font-size:22px;
+	
+}
+.size2
+{
+	width:30%;
+	height:70%;
+	background-color:white;
+	border:1px solid red;
+	font-size:22px;
+	
+}

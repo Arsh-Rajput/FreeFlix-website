@@ -1,0 +1,28 @@
+body
+{
+	margin:0;
+}
+*{box-sizing:border-box;}
+#headbar
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	height:100px;
+	width:100%;
+	background-color:black;
+}
+#logo
+{
+	left:10px;
+	height:100%;
+	width:160px;
+	
+}
+#searchcontent
+{
+	height:100%;
+	width:400px;
+	background-color:red;
+	
+}
